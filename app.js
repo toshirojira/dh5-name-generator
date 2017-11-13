@@ -107,22 +107,41 @@ var storyArray = new Array(
 	"No gems can purchase this, no hack can acquire. So, basically, not for SAINT."
 );
 
+var gifArray = new Array(
+	"https://giphy.com/embed/APkGlErgBzB1S",
+	"https://giphy.com/embed/3otOKtA77RkcN5Nk08",
+	"https://giphy.com/embed/2Pk9newN8fkbu",
+	"https://giphy.com/embed/DgHgSffICoOIM",
+	"https://giphy.com/embed/1TeeymZ8F66yc",
+	"https://giphy.com/embed/l2YSDjeuAppV2KpCo",
+	"https://giphy.com/embed/ZVInKmVN7N4AM",
+	"https://giphy.com/embed/3oEjI1erPMTMBFmNHi",
+	"https://giphy.com/embed/mSaovYb6MCJmE",
+	"https://giphy.com/embed/hELBTNNaxNWp2",
+	"https://giphy.com/embed/110PaHIohJywso",
+	"https://giphy.com/embed/XzE41LGp5WYE0",
+	"https://giphy.com/embed/zJ2CCqGQC82Zi"
+);
+
 function generateName() {
 	var randomDescription = descriptionArray[Math.floor(Math.random() * descriptionArray.length)];
 	var randomExotic = exoticArray[Math.floor(Math.random() * exoticArray.length)];
 	var randomWeapon = weaponArray[Math.floor(Math.random() * weaponArray.length)];
 	var randomOfThe = ofTheArray[Math.floor(Math.random() * ofTheArray.length)];
 	var randomStory = storyArray[Math.floor(Math.random() * storyArray.length)];
+	var randomGif = gifArray[Math.floor(Math.random() * gifArray.length)];
 	
 	var description = document.getElementById("description");
 	var exotic = document.getElementById("exotic");
 	var weapon = document.getElementById("weapon");
 	var ofThe = document.getElementById("ofThe");
 	var story = document.getElementById("story");
+	var gifSrc = document.getElementById("gif");
 	
 	description.innerHTML=randomDescription;
 	exotic.innerHTML=randomExotic;
 	weapon.innerHTML=randomWeapon;
 	ofThe.innerHTML=randomOfThe;
 	story.innerHTML=randomStory;
+	// gifSrc.setAttribute('src', randomGif);
 }

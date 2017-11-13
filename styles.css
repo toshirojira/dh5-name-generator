@@ -1,30 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
 html, 
 body {
 	margin: 0;
 }
 
 body {
-	background: #272727;
-	font-family: 'Roboto', serif;
+	background: #171717;
+	font-family: "Vollkorn SC";
+	font-size: 24px;
+	line-height: 32px;
 }
 
 .main-content {
-	color: #fff;
-	padding: 15% 20%;
-}
-
-h1 {
-	font-size: 18px;
-	font-weight: normal;
+	color: #aeaeae;
+	width: 66%;
+	padding: 40px 0;
+	margin: 0 auto;
 }
 
 h1, h2 {
 	margin: 0;
 }
 
+h1 {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+
 h2 {
-	font-size: 60px;
-	line-height: 70px;
+	color: #fff;
+	font-size: 100px;
+	line-height: 110px;
+	text-shadow: 0 3px 3px rgba(0,0,0,0.3);
+	margin-bottom: 40px;
 }
 
 .text-sm {
@@ -34,6 +46,7 @@ h2 {
 }
 
 button {
+	font-family: "Vollkorn SC";
 	margin: 40px 0;
 	color: #fff;
 	font-size: 18px;
@@ -43,7 +56,7 @@ button {
 	display: flex;
 	justify-content: center;
 	height: 60px;
-	padding: 0 60px;
+	padding: 0 40px;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.3);
 }
 
@@ -58,30 +71,42 @@ button:focus {
 }
 
 #story {
-	font-size: 20px;
+	color: #aeaeae;
 	width: 66%;
-	color: #878787;
 }
 
+.gif-bg {
+	display: none;
+	width:100%;
+	height:0;
+	padding-bottom:41%;
+	position:relative;
+	margin: 20px 0;
+}
+
+
 @media only screen and (max-width: 768px) {
+	body {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	
   .main-content {
+  	width: 100%;
   	padding: 20px;
   }
 
 	button {
 		display: flex;
+		width: 100%;
 	}
 
   h2 {
-  	font-size: 40px;
-  	line-height: 50px;
+  	font-size: 60px;
+  	line-height: 70px;
   }
 
   #ofThe {
   	display: inline;
-  }
-
-  #story {
-  	width: 100%;
   }
 }
