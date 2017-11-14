@@ -29,17 +29,25 @@ h1, h2 {
 }
 
 h1 {
+	color: #fff;
 	font-size: 18px;
 	font-weight: normal;
 	margin-bottom: 40px;
+	display: flex;
+	align-items: center;
+}
+
+h1 img {
+	width: 40px;
+	margin-right: 10px;
 }
 
 h2 {
 	color: #fff;
 	font-size: 100px;
-	line-height: 110px;
+	line-height: 100px;
 	text-shadow: 0 3px 3px rgba(0,0,0,0.3);
-	margin: 80px 0 40px;
+	margin: 40px 0;
 }
 
 .text-sm {
@@ -53,7 +61,7 @@ button {
 	margin: 40px 0;
 	color: #fff;
 	font-size: 18px;
-	background-color: #98009b;
+	background-color: #258834;
 	border-radius: 2px;
 	border: 0;
 	display: flex;
@@ -64,7 +72,7 @@ button {
 }
 
 button:hover {
-	background-color: #c500cc;
+	background-color: #61B348;
 	cursor: pointer;
 }
 
@@ -86,7 +94,6 @@ button:focus {
 	position:relative;
 	margin: 20px 0;
 }
-
 
 @media only screen and (max-width: 768px) {
 	body {
