@@ -28,7 +28,8 @@ var descriptionArray = new Array(
 	"Charismatic",
 	"Penetrating",
 	"Sweaty",
-	"Formidable"
+	"Formidable",
+	"Psychadelic"
 );
 
 var exoticArray = new Array(
@@ -48,12 +49,12 @@ var exoticArray = new Array(
 	"Obi Wan",
 	"Red Moon",
 	"Incantation",
-	"Cosmic"
+	"Cosmic",
+	"Malevolent"
 );
 
 var weaponArray = new Array(
-	"Greatsword",
-	"Crossbow",
+	"Bow",
 	"Staff",
 	"Blades",
 	"Glaive",
@@ -63,7 +64,6 @@ var weaponArray = new Array(
 	"Stick",
 	"Knife",
 	"Wand",
-	"Bow",
 	"Saber",
 	"Cutlass",
 	"Curtana",
@@ -73,26 +73,30 @@ var weaponArray = new Array(
 	"Bludgeon",
 	"Bazooka",
 	"Hatchet",
-	"Brass Knuckles"
+	"Brass Knuckles",
+	"Naked Fist"
 );
 
 var ofTheArray = new Array(
 	"of the Abyss",
 	"of Lore",
-	"of Holy Worth",
+	"of Wrath",
 	"of the Wicked",
 	"of the Immortals",
 	"of the Righteous Few",
 	"of Sorrow",
-	"of Cloud Cuckoo Land",
+	"of the Clouds",
 	"of the Wretched Eight",
-	"of the Lion's Den",
+	"of the Lion",
 	"of Monk Rememberance",
 	"of Time",
 	"of the He-Said-She-Said",
 	"of the Great Pontificator",
 	"of Woe",
-	"of the Wild Hordes"
+	"of the Wild Hordes",
+	"of the Undead",
+	"of the Chosen 12",
+	"of the Sacred Six"
 );
 
 var storyArray = new Array(
