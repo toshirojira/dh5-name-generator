@@ -1,5 +1,3 @@
-$('body').fadeIn();
-
 var descriptionArray = new Array(
 	"Unspeakable",
 	"Holy",
@@ -96,7 +94,7 @@ var ofTheArray = new Array(
 	"of Woe",
 	"of the Wild Hordes",
 	"of the Undead",
-	"of the Chosen 12",
+	"of the Chosen Twelve",
 	"of the Sacred Six",
 	"of Dreams",
 	"of the Nightmare Moon",
@@ -149,13 +147,23 @@ function generateName() {
 	var ofThe = document.getElementById("ofThe");
 	var story = document.getElementById("story");
 	var gifSrc = document.getElementById("gif");
+
+	var mainContent = $('.main-content');
+
+	mainContent.fadeOut();
 	
-	description.innerHTML=randomDescription;
-	exotic.innerHTML=randomExotic;
-	weapon.innerHTML=randomWeapon;
-	ofThe.innerHTML=randomOfThe;
-	story.innerHTML=randomStory;
-	// gifSrc.setAttribute('src', randomGif);
+	setTimeout(function() { // wait 1000ms for the fadeOut to complete, then write the innerHTML
+		description.innerHTML=randomDescription;
+		exotic.innerHTML=randomExotic;
+		weapon.innerHTML=randomWeapon;
+		ofThe.innerHTML=randomOfThe;
+		story.innerHTML=randomStory;
+		// gifSrc.setAttribute('src', randomGif);
+	}, 500);
+
+	setTimeout(function() { // wait 1000ms for the innerHTML to write, then fade it all back in
+		mainContent.fadeIn();
+	}, 500);
 }
 
 generateName();

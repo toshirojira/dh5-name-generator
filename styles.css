@@ -16,13 +16,18 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-blend-mode: lighten;
-	display: none;
+}
+
+.header {
+	width: 80%;
+	padding: 40px 0;
+	margin: 0 auto;
 }
 
 .main-content {
+	display: none;
 	color: #aeaeae;
 	width: 80%;
-	padding: 40px 0;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -35,7 +40,6 @@ h1 {
 	color: #fff;
 	font-size: 18px;
 	font-weight: normal;
-	margin-bottom: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -51,7 +55,7 @@ h2 {
 	font-size: 80px;
 	line-height: 80px;
 	text-shadow: 0 10px 10px rgba(0,0,0,0.3);
-	margin: 40px auto;
+	margin: 0 auto 40px;
 }
 
 .text-sm {
@@ -61,6 +65,7 @@ h2 {
 }
 
 button {
+	display: none;
 	font-family: "Vollkorn SC";
 	margin: 40px auto;
 	color: #fff;
