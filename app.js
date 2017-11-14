@@ -29,7 +29,8 @@ var descriptionArray = new Array(
 	"Penetrating",
 	"Sweaty",
 	"Formidable",
-	"Psychadelic"
+	"Psychadelic",
+	"Bloody"
 );
 
 var exoticArray = new Array(
@@ -96,7 +97,10 @@ var ofTheArray = new Array(
 	"of the Wild Hordes",
 	"of the Undead",
 	"of the Chosen 12",
-	"of the Sacred Six"
+	"of the Sacred Six",
+	"of Dreams",
+	"of the Nightmare Moon",
+	"of Bone"
 );
 
 var storyArray = new Array(
@@ -155,3 +159,6 @@ function generateName() {
 }
 
 generateName();
+
+// store and return the number of combinations possible,
+// and the number of combinations found.
