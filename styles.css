@@ -10,18 +10,20 @@ body {
 body {
 	background: #171717;
 	font-family: "Vollkorn SC";
-	font-size: 24px;
-	line-height: 32px;
+	font-size: 16px;
+	line-height: 24px;
 	background-image: url('background.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-blend-mode: lighten;
 }
 
 .main-content {
 	color: #aeaeae;
-	width: 66%;
+	width: 80%;
 	padding: 40px 0;
 	margin: 0 auto;
+	text-align: center;
 }
 
 h1, h2 {
@@ -35,6 +37,7 @@ h1 {
 	margin-bottom: 40px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 h1 img {
@@ -44,10 +47,10 @@ h1 img {
 
 h2 {
 	color: #fff;
-	font-size: 100px;
-	line-height: 100px;
-	text-shadow: 0 3px 3px rgba(0,0,0,0.3);
-	margin: 40px 0;
+	font-size: 80px;
+	line-height: 90px;
+	text-shadow: 0 10px 10px rgba(0,0,0,0.3);
+	margin: 40px auto;
 }
 
 .text-sm {
@@ -58,10 +61,10 @@ h2 {
 
 button {
 	font-family: "Vollkorn SC";
-	margin: 40px 0;
+	margin: 40px auto;
 	color: #fff;
 	font-size: 18px;
-	background-color: #258834;
+	background-color: #fff;
 	border-radius: 2px;
 	border: 0;
 	display: flex;
@@ -69,10 +72,12 @@ button {
 	height: 60px;
 	padding: 0 40px;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+	background-image: linear-gradient(to top, rgba(37,136,52,1), rgba(97,179,72,1));
+	text-shadow: 0 0 10px rgba(255,255,255,1);
 }
 
 button:hover {
-	background-color: #61B348;
+	background-image: linear-gradient(to top, rgba(37,136,52,0.9), rgba(97,179,72,0.9));
 	cursor: pointer;
 }
 
@@ -84,6 +89,7 @@ button:focus {
 #story {
 	color: #aeaeae;
 	width: 66%;
+	margin: 0 auto;
 }
 
 .gif-bg {
@@ -95,10 +101,11 @@ button:focus {
 	margin: 20px 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 660px) {
 	body {
 		font-size: 16px;
 		line-height: 22px;
+		background-image: none;
 	}
 
   .main-content {
@@ -106,14 +113,15 @@ button:focus {
   	padding: 20px;
   }
 
-	button {
-		display: flex;
-		width: 100%;
-	}
+  h1 {
+  	font-size: 16px;
+  	line-height: 20px;
+  	text-align: left;
+  }
 
   h2 {
-  	font-size: 60px;
-  	line-height: 70px;
+  	font-size: 40px;
+  	line-height: 48px;
   }
 
   #story {

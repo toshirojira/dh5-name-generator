@@ -25,7 +25,8 @@ var descriptionArray = new Array(
 	"Floppy",
 	"Charismatic",
 	"Penetrating",
-	"Sweaty"
+	"Sweaty",
+	"Formidable"
 );
 
 var exoticArray = new Array(
@@ -36,20 +37,20 @@ var exoticArray = new Array(
 	"Affogato",
 	"Beef",
 	"Oolong",
-	"Crying Tiger",
-	"Lashing Dragon",
+	"Illuminated",
 	"Bai Jiguan",
 	"Golden",
 	"Shimmering",
 	"Kombucha",
 	"Jin Fo",
 	"Obi Wan",
-	"Dusk",
-	"Red Moon"
+	"Red Moon",
+	"Incantation",
+	"Cosmic"
 );
 
 var weaponArray = new Array(
-	"Greatword",
+	"Greatsword",
 	"Crossbow",
 	"Staff",
 	"Blades",
@@ -104,7 +105,8 @@ var storyArray = new Array(
 	"This weapon belongs to Sharon Jones, war chief of the Dap Kings. It shines red, healthy with the blood of its foes.",
 	"Unearthed by the sands of time, this weapon made Natty shit his pants in fear.",
 	"Attempting to wield it during their surge to Top 10, Sup3rn00bs nonetheless failed, drowning in their own Sea of Sorrow.",
-	"No gems can purchase this, no hack can acquire. So, basically, not for SAINT."
+	"No gems can purchase this, no hack can acquire. So, basically, not for SAINT.",
+	"Red Velvet, star jammer, armory slammer, took this into battle and decimated even the memory of her foe."
 );
 
 var gifArray = new Array(
