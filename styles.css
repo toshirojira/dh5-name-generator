@@ -55,7 +55,7 @@ h2 {
 	font-size: 80px;
 	line-height: 80px;
 	text-shadow: 0 10px 10px rgba(0,0,0,0.3);
-	margin: 0 auto 40px;
+	margin: 40px auto 80px;
 }
 
 .text-sm {
@@ -114,6 +114,10 @@ button:focus {
 		background-image: none;
 	}
 
+	.header {
+		padding: 20px 0;
+	}
+
   .main-content {
   	width: 100%;
   	padding: 20px;
@@ -128,6 +132,7 @@ button:focus {
   h2 {
   	font-size: 40px;
   	line-height: 40px;
+  	margin: 0 auto 20px;
   }
 
   #story {
