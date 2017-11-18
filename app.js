@@ -1,4 +1,6 @@
 var descriptionArray = new Array(
+	// adjectives,
+	// strong, curious, descriptors
 	"Unspeakable",
 	"Holy",
 	"Heavenly",
@@ -22,16 +24,27 @@ var descriptionArray = new Array(
 	"Scandelous",
 	"Frothy",
 	"Whimsical",
-	"Floppy",
 	"Charismatic",
 	"Penetrating",
 	"Sweaty",
 	"Formidable",
 	"Psychadelic",
-	"Bloody"
+	"Sanguine",
+	"Blood Thirsty",
+	"Drunken",
+	"Illuminated",
+	"Shimmering",
+	"Malevolent",
+	"Recalcitrant",
+	"Unfettered",
+	"Zealous",
+	"Cosmic",
+	"Stellar"
 );
 
 var exoticArray = new Array(
+	// exotic,
+	// ancient, aged, foreign
 	"WonTon",
 	"Bouillon",
 	"Kung Fu",
@@ -39,23 +52,24 @@ var exoticArray = new Array(
 	"Affogato",
 	"Beef",
 	"Oolong",
-	"Illuminated",
 	"Bai Jiguan",
 	"Golden",
-	"Shimmering",
 	"Kombucha",
 	"Jin Fo",
 	"Obi Wan",
-	"Red Moon",
-	"Incantation",
-	"Cosmic",
-	"Malevolent"
+	"Tiramisu",
+	"Zeppole",
+	"Fujian",
+	"Guang-Xi",
+	"Char Siu",
+	"Guanyin",
+	"Zao-Shen"
 );
 
 var weaponArray = new Array(
+	// weapon types
 	"Bow",
 	"Staff",
-	"Blades",
 	"Glaive",
 	"Blade",
 	"Sword",
@@ -73,12 +87,23 @@ var weaponArray = new Array(
 	"Bazooka",
 	"Hatchet",
 	"Brass Knuckles",
-	"Naked Fist"
+	"Naked Fist",
+	"Tomahawk",
+	"Scythe",
+	"Gauntlet",
+	"Katana",
+	"Trident",
+	"Arbalest",
+	"Revolver",
+	"Incantation",
+	"Sceptar",
+	"Spell",
+	"Hex"
 );
 
 var ofTheArray = new Array(
 	"of the Abyss",
-	"of Lore",
+	"of Days Dead and Gone",
 	"of Wrath",
 	"of the Wicked",
 	"of the Immortals",
@@ -86,7 +111,6 @@ var ofTheArray = new Array(
 	"of Sorrow",
 	"of the Clouds",
 	"of the Wretched Eight",
-	"of the Lion",
 	"of Monk Rememberance",
 	"of Time",
 	"of the He-Said-She-Said",
@@ -95,10 +119,17 @@ var ofTheArray = new Array(
 	"of the Wild Hordes",
 	"of the Undead",
 	"of the Chosen Twelve",
-	"of the Sacred Six",
 	"of Dreams",
-	"of the Nightmare Moon",
-	"of Bone"
+	"of the Deep",
+	"of Bone",
+	"of the Mountain",
+	"of the Nakatomi Tower",
+	"of Olympus",
+	"of the Long Winter",
+	"of the Thirteen Heavens",
+	"of the Starry Vault",
+	"of Mycenae",
+	"of the Azores"
 );
 
 var storyArray = new Array(
